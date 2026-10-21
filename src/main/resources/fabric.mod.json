@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "seyfmodbypenikq",
+  "version": "${version}",
+  "name": "seyfmodBypenikq",
+  "description": "DropGuard: choose items that need confirmation before dropping or can never be dropped.",
+  "authors": ["PENIKq"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.penikq.seyfmod.SeyfClient"]
+  },
+  "mixins": ["seyfmodbypenikq.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1 <1.21.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
